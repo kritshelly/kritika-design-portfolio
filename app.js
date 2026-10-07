@@ -2,6 +2,10 @@ const defaults={name:'Kritika',availability:'Open for good collaborations',headl
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const key='playful-portfolio-v1';let data,filter='All',tab='profile',selected=0,toastTimer;
 try{data=JSON.parse(localStorage.getItem(key))||JSON.parse($('#portfolio-data').textContent)||structuredClone(defaults)}catch{data=structuredClone(defaults)}
+// Retire sample projects, including copies stored in returning visitors' browsers.
+const retiredProjectIds = new Set(['orbit', 'common', 'form', 'next']);
+defaults.projects = defaults.projects.filter(project => !retiredProjectIds.has(project.id));
+data.projects = data.projects.filter(project => !retiredProjectIds.has(project.id));
 // Migrate the former placeholder while preserving every other saved edit.
 const legacyName = new RegExp('\\b' + 'Ha' + 'rsh' + '(?: Studio)?\\b', 'gi');
 data.name = data.name.replace(legacyName, 'Kritika');
