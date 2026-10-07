@@ -163,3 +163,13 @@ body:not([data-palette="night"]) .nav,body:not([data-palette="night"]) .hero{bac
 .aura-phone-night .aura-app-primary{background:#e1d4ff;color:#293b4e;border-color:#e1d4ff}
 .aura-footer{background:radial-gradient(ellipse at 15% 20%,#a9eecf,transparent 65%),linear-gradient(125deg,#e4ecfb,#dcccfa)}
 .aura-case button:focus-visible{outline:3px solid #7156b3;outline-offset:4px}
+
+/* Keep each preference question and its choices aligned within one card. */
+.aura-choice-grid{gap:20px}
+.aura-choice-grid fieldset{margin:0;padding:26px 28px 28px;border:1px solid #fff;border-radius:22px}
+.aura-choice-grid legend{float:left;width:100%;max-width:none;min-height:56px;margin:0 0 20px;padding:0;font-size:18px;line-height:1.55}
+.aura-choice-grid fieldset>div{clear:both;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.aura-choice-grid label{display:grid;grid-template-columns:20px minmax(0,1fr);gap:12px;align-items:center;min-width:0;margin:0}
+.aura-choice-grid input{margin:0;width:20px;height:20px;flex-shrink:0}
+.aura-choice-grid label span{display:flex;align-items:center;width:100%;min-height:64px;padding:16px 20px;line-height:1.45;background:#ffffff80}
+@media(max-width:600px){.aura-choice-grid fieldset{padding:22px 20px}.aura-choice-grid legend{min-height:0;font-size:17px}.aura-choice-grid fieldset>div{grid-template-columns:1fr;gap:12px}.aura-choice-grid label span{min-height:58px;padding:14px 16px}}
