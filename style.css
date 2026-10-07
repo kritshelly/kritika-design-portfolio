@@ -174,4 +174,4 @@ body:not([data-palette="night"]) .nav,body:not([data-palette="night"]) .hero{bac
 .aura-choice-grid label span{display:flex;align-items:center;width:100%;min-height:64px;padding:16px 20px;line-height:1.45;background:#ffffff80}
 @media(max-width:600px){.aura-choice-grid fieldset{padding:22px 20px}.aura-choice-grid legend{min-height:0;font-size:17px}.aura-choice-grid fieldset>div{grid-template-columns:1fr;gap:12px}.aura-choice-grid label span{min-height:58px;padding:14px 16px}}
 
-.visual-setgo{background:#101010}.visual-setgo .project-tag{background:#fff7ef;color:#101010}.visual-setgo .project-open{background:#ffd5bb;color:#101010}
+.visual-setgo{background:#ff7a36}.visual-setgo .custom-cover{object-fit:contain}.visual-setgo .project-tag{display:none}.visual-setgo .project-tag{background:#fff7ef;color:#101010}.visual-setgo .project-open{background:#ffd5bb;color:#101010}
