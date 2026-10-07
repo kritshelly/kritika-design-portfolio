@@ -106,3 +106,60 @@ body:not([data-palette="night"]) .nav,body:not([data-palette="night"]) .hero{bac
 .aura-project-cover{position:absolute;inset:0;background:radial-gradient(ellipse at 10% 40%,#d5d4ef,transparent 65%),linear-gradient(125deg,#edf2ee,#d4e8df);display:grid;grid-template-columns:1.1fr 1fr;gap:18px;padding:65px 30px 30px;text-align:left;color:#304a4d;overflow:hidden}.aura-cover-copy{z-index:1;align-self:center}.aura-cover-wordmark{font-size:32px;letter-spacing:-2px;display:block;line-height:1}.aura-cover-wordmark>span{font-size:14px;vertical-align:top;letter-spacing:0;margin-left:5px}.aura-cover-copy>strong{display:block;font-size:43px;font-weight:500;letter-spacing:-2px;line-height:1.05;margin:22px 0 18px}.aura-cover-copy em{font-family:Georgia,serif;font-weight:400;color:#617c75}.aura-cover-description{display:block;font-size:11px;line-height:1.7;color:#526c6d}.aura-cover-photo{position:relative;height:100%;min-height:0;border-radius:130px 130px 18px 18px;overflow:hidden}.aura-cover-photo img{width:100%;height:100%;object-fit:cover;object-position:57% center}.aura-cover-credit{position:absolute;bottom:8px;left:12px;font-size:7px;color:white;text-shadow:0 1px 4px #172c25}.aura-cover-card{position:absolute;bottom:40px;right:22px;display:flex;gap:10px;align-items:center;background:#f4faf0df;border:1px solid #ffffffee;padding:15px 18px;border-radius:16px;box-shadow:0 10px 25px #31494420}.aura-cover-card>span{font-size:23px;color:#617c75}.aura-cover-card small{display:block;font-size:7px;letter-spacing:1px;margin-bottom:5px}.aura-cover-card b{font-size:12px;font-weight:500}.project:has(.aura-project-cover) .project-tag{background:#f5f9f4c9;color:#405a58}.project:has(.aura-project-cover) .project-open{z-index:4}@media(max-width:600px){.aura-project-cover{padding:55px 20px 22px;gap:10px}.aura-cover-copy>strong{font-size:36px;margin:16px 0}.aura-cover-wordmark{font-size:26px}.aura-cover-description{font-size:9px}.aura-cover-card{right:12px;bottom:30px;padding:11px 12px}.aura-cover-card b{font-size:10px}.aura-cover-card small{font-size:6px}}@media(max-width:400px){.aura-cover-copy>strong{font-size:30px}.aura-cover-description{font-size:8px}.aura-cover-card{bottom:22px;right:10px;padding:9px}.aura-cover-card>span{font-size:18px}}
 
 .oc-clean-phones .oc-intro-composition{position:relative;padding-bottom:12px}.oc-clean-phones .oc-phone-caption-card{position:relative;z-index:2;margin:-20px -8px 0;padding:24px 22px;border:1px solid #d5dcff;border-radius:20px;background:linear-gradient(125deg,#e6e3fa,#cbd9ff);box-shadow:0 15px 35px #111b4e30;text-align:left;color:#242135}.oc-phone-caption-card>span{display:block;font-size:8px;letter-spacing:1.2px}.oc-phone-caption-card>strong{display:block;font-size:25px;line-height:1.15;letter-spacing:-.6px;margin:12px 0}.oc-case .oc-phone-caption-card>p{font-size:12px;line-height:1.6;color:#4e516c;margin:0}@media(max-width:600px){.oc-clean-phones .oc-phone-caption-card{padding:16px 13px;margin-top:-12px;border-radius:14px}.oc-phone-caption-card>strong{font-size:20px}.oc-phone-caption-card>span{font-size:6px;letter-spacing:.6px}.oc-case .oc-phone-caption-card>p{font-size:10px}}
+
+/* AURA: luminous mint and lavender, with clearer foreground contrast. */
+.aura-case{background:#fbfdfd;color:#20383c}
+.aura-arrival{background:radial-gradient(ellipse at 8% 30%,#cbb6ffb8,transparent 57%),radial-gradient(ellipse at 95% 80%,#8aefd3a6,transparent 60%),#f2fbf7}
+.aura-arrival-copy h2 em,.aura-cover-copy em{color:#386d65}
+.aura-arrival-wordmark,.aura-cover-wordmark{color:#6752a5}
+.aura-arrival-copy>p,.aura-cover-description{color:#3c595d}
+.aura-arrival-glass,.aura-cover-card{background:linear-gradient(120deg,#fffffff0,#e7fff4df);border-color:#fff;box-shadow:0 18px 45px #34645d20}
+.aura-arrival-symbol{background:linear-gradient(135deg,#d9c5ff,#a8efd6);color:#3b5660}
+.aura-arrival-spark{color:#7862b8}
+.aura-concept-pill{background:#ffffffb8;border-color:#a7cfc4}
+.aura-arrival-actions button:first-child,.aura-app-primary{background:#285b54;border-color:#285b54;color:#fff}
+.aura-project-cover{background:radial-gradient(ellipse at 8% 35%,#cbb5ff,transparent 62%),linear-gradient(125deg,#f0fbf8,#aeeed8)}
+.project:has(.aura-project-cover) .project-tag{background:#ffffffdc;color:#304f50}
+.aura-glass{background:#ffffffd6;border-color:#fff;box-shadow:0 14px 40px #5d647c12}
+.aura-research{background:radial-gradient(ellipse at 10% 60%,#d7c6ff,transparent 65%),radial-gradient(ellipse at 100% 20%,#a7f2db,transparent 65%),#f1fbf9}
+.aura-stat{color:#6b50b4}
+.aura-sticky-grid button{background:#d6c2ff;color:#283b43;box-shadow:0 8px 0 #66508e12}
+.aura-sticky-grid button:nth-child(2){background:#b5f2dc}
+.aura-sticky-grid button:nth-child(3){background:#ffedaf}
+.aura-sticky-grid button:nth-child(4){background:#cbdcfe}
+.aura-sticky-grid button[aria-pressed=true]{border-color:#7156b3}
+.aura-note-panel{background:linear-gradient(125deg,#eee4ff,#e2fff0)}
+.aura-choices{background:#e7f8f1}
+.aura-choice-grid fieldset{background:radial-gradient(ellipse at 100% 0,#d9c7ffad,transparent 70%),#ffffffe0;border-color:#fff}
+.aura-choice-grid input{accent-color:#755bb7}
+.aura-choice-grid label:has(input:checked) span{background:linear-gradient(110deg,#d8c7ff,#b4f0da);border-color:#8970bf;box-shadow:0 4px 20px #7860b326}
+.aura-people,.aura-evidence-bridge{background:linear-gradient(140deg,#e5d9ff,#d7f8e9)}
+.aura-participant-insights{background:linear-gradient(145deg,#cef6e5,#e5d8ff)}
+.aura-avatar{background:linear-gradient(135deg,#c6aff1,#a9e8d0);color:#29464c}
+.aura-game-insight{background:radial-gradient(ellipse at 100% 0,#c6adf59c,transparent 65%),linear-gradient(125deg,#baf1da,#e9ddff);border-color:#a4cdbc;box-shadow:0 14px 35px #34625c16}
+.aura-chart-section{background:linear-gradient(140deg,#eee7ff,#e3f9ef)}
+.aura-stack-single,.aura-chart-legend i{background:#b39ade}
+.aura-stack-multi,.aura-chart-legend span:last-child i{background:#85dcb9}
+.aura-bar-track{background:#e6eee9}
+.aura-bar-track i{background:linear-gradient(90deg,#c2a9f1,#9878cc)}
+.aura-verified-bars i{background:linear-gradient(to right,#a68bd6 var(--value),#ddede5 var(--value))}
+.aura-donut-card:nth-child(odd) .aura-donut{--ring:#a78bd9!important}
+.aura-donut-card:nth-child(even) .aura-donut{--ring:#78d3ad!important}
+.aura-intent,.aura-solution,.aura-outcome{background:linear-gradient(130deg,#e2d4ff,#c8f5e1)}
+.aura-solution .aura-care-notifications,.aura-solution .aura-product-path article{background:#ffffffd6}
+.aura-screen-section{background:radial-gradient(ellipse at 20% 20%,#d8c4ff,transparent 60%),#d7f7e8}
+.aura-phone:not(.aura-phone-night){background:linear-gradient(145deg,#e7dcff,#e5fff0);box-shadow:0 24px 48px #31594d26,0 0 0 1px #a4c7bb}
+.aura-ui-card{background:#ffffffdf}
+.aura-home-orb span{background:radial-gradient(circle at 30% 25%,#fff,#98dfc1)}
+.aura-notification-feature{background:#bbefd7}
+.aura-ui-tag{background:#caf2df;color:#254a40}
+.aura-eco-map{background:radial-gradient(ellipse,#d9cdff,#e3faef)}
+.aura-eco-node.eco-0{background:#d6c3f6;color:#354452}
+.aura-eco-node[aria-pressed=true]{background:#315e57;border-color:#315e57;color:#fff}
+.aura-scenario{background:radial-gradient(ellipse at 85% 50%,#8f7abc80,transparent 70%),#29474c}
+.aura-product{background:linear-gradient(135deg,#2b5051,#3e4567)}
+.aura-scenario .aura-glass,.aura-product .aura-glass{background:#ffffff14;border-color:#ffffff40}
+.aura-phone-night .aura-ui-card{background:#ffffff16}
+.aura-phone-night .aura-app-primary{background:#e1d4ff;color:#293b4e;border-color:#e1d4ff}
+.aura-footer{background:radial-gradient(ellipse at 15% 20%,#a9eecf,transparent 65%),linear-gradient(125deg,#e4ecfb,#dcccfa)}
+.aura-case button:focus-visible{outline:3px solid #7156b3;outline-offset:4px}
