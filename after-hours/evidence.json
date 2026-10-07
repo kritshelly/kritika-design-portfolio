@@ -1,0 +1,45 @@
+{
+  "project_status": "Completed concept presentation: two exploratory conversations, illustrative scenario analysis, service blueprint and interactive prototype; no measured service impact",
+  "geography": "Noida, Delhi NCR, India",
+  "sources": [
+    {
+      "id": "P1",
+      "title": "Restaurant worker \u00b7 exploratory conversation",
+      "geography": "Noida, Delhi NCR, India",
+      "period": "Interview date not recorded",
+      "finding": "Scheduled finish 23:00; cleaning often extends departure to 23:25\u201323:40. Bus followed by approximately 15 minutes walking. Missing the bus means a long wait. A colleague\u2019s lift helps when shifts align.",
+      "limitation": "One participant\u2019s account, supplied as a paraphrased summary. No bus timetable or exact waiting duration was supplied."
+    },
+    {
+      "id": "P2",
+      "title": "Retail worker \u00b7 exploratory conversation",
+      "geography": "Noida, Delhi NCR, India",
+      "period": "Interview date not recorded",
+      "finding": "Usually leaves around 22:15 after till closing. Approximately 45-minute journey with one change. Late closing can cause a missed connection. Checking live departures helps.",
+      "limitation": "One participant\u2019s account, supplied as a paraphrased summary. Scheduled finish time and delay duration were not supplied."
+    }
+  ],
+  "design_change": "Hosted pause deprioritised; workplace departure check prioritised",
+  "sample_size": 2,
+  "scenario_review": {
+    "status": "Illustrative cases and simulated observations supplied by user; not empirical findings",
+    "worker_cases": 5,
+    "manager_perspectives": 2,
+    "simulated_usability_observations": 5,
+    "changes": [
+      "Expected actual departure input",
+      "Explain timing concern separately from cancellation",
+      "Sorted journey and employer pickup path",
+      "Explicit not-booked fallback and unavailable price",
+      "Closing-task support prompt"
+    ]
+  },
+  "scenario_review_iteration_2": {
+    "status": "Simulated comparison supplied by user; not additional primary research",
+    "supervisor_scenarios": 1,
+    "worker_scenarios": 3,
+    "design_decision": "Keep checklist as base, journey check optional; show request ownership and unresolved actions",
+    "validation_question": "Does the journey concern lead to useful supervisor action beyond checklist A alone?"
+  },
+  "scope_decision": "Real-world testing excluded from this portfolio version at the designer\u2019s request."
+}
