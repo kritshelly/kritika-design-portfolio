@@ -1,0 +1,36 @@
+YOUR PORTFOLIO
+
+Open index.html in a browser. No install or build step is required.
+Current local preview: http://127.0.0.1:4187
+
+Click “Make it yours” to edit your name, contact information, copy, color,
+projects, case studies, and project cover images. Save changes to keep edits
+in the current browser. Move up changes the project order.
+
+“Export website” downloads an index.html containing your edited portfolio.
+Upload that file to a static website host to publish it. Editing a local
+browser copy does not automatically update an already-published website.
+“Backup JSON” and “Import JSON” let you transfer your content between browsers.
+Images uploaded through the editor are resized and embedded in the website.
+Google Fonts loads online; system fonts are used when offline.
+
+CONTENT STATUS
+Diabetes Manager / Gluvia is the first project. Three temporary, frame-only
+browser previews are included. Full-resolution import of all 52 Figma frames
+is still pending the Figma account connection. Nine unframed objects are
+excluded. The full frame inventory is saved for continuing the import.
+Common Ground and Offbeat are clearly labelled sample concepts.
+Name and contact details are editable; replace hello@example.com and the
+generic LinkedIn URL before publication. Project descriptions are draft copy.
+The site has not been published to a public domain.
+
+LONG CASE STUDIES
+Open a project and choose “Add images & sections to this project”, or open Make it yours and expand a project. Upload multiple PNG/JPEG/WebP images (8 MB per file), add story sections, titles and captions, and reorder sections with the arrows. Save changes. Case-study images retain their aspect ratio. Large image collections save in this browser using IndexedDB; export a website or JSON backup to keep a portable copy. Clearing browser data removes local saves.
+
+PUBLIC WEBSITE
+https://kritika-design-studio.vercel.app
+Hosted as kritika-design-studio in the existing Vercel account harshjoshi23s-projects. To republish from this folder, run: vercel deploy --prod
+Diabetes Manager was replaced with Forma, a sample concept. The full-page case-study editor and multi-image upload remain available. Browser edits are local until exported and redeployed.
+
+WORK IMPORT — 17 OCTOBER 2026
+Imported all five projects from https://kritshelly.github.io/kritika-design-portfolio/: GLUVIA, SETGO, AURA, After Hours and OCCASIO. Original complete studies, images and interactive demos live in imported/. The WHAT IF homepage, panda and footer are preserved. Keep the imported folder beside index.html when moving or exporting this site. Use Make it yours to edit project cards and append new sections; original case-study copy and demos are editable in imported/ using Cursor or this chat.
